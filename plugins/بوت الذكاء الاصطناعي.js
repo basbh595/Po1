@@ -11,7 +11,9 @@ let handler = async (m, {
         text = args.slice(0).join(" ")
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text
-    } else throw "ex : \n *.gptvoc*   ما الاسلام"
+    } else throw "ex : \n *.gptvoc*      *〄↞┇الذكاء الاصطناعي اسأله اي سؤال تريده مثال :┇*
+
+*┇.بوت متى توفي النبي صلى الله عليه وسلم┇◇*   "
     await m.reply(wait)
     try {
         let res = await ChatGpt(text)
