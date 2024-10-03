@@ -36,12 +36,12 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 > •رتــبــتــك : ${role}
 *• ──╾⊱﹝⚜️﹞⊰╼── •*
 ╗───¤مــعلــومــات الــ🤖بــوت
-> •إســم الــبــوت: -ستيفن⁵¹⁷. 
-> •الــمــطــور :-ستيفڤن⁵¹⁷.
+> •إســم الــبــوت: -ذاك الامير ⁷. 
+> •الــمــطــور :-ذاك الامير ⁵⁷.
 > •مــدة الــتــشــغــيل : ${uptime}
 *• ──╾⊱﹝⚜️﹞⊰╼── •*
 *~⌬ تــ✍︎ــوقــيــع ↡~*🖋️
-*⌞⚜️┊ス M.Z┊⚜️⌝*
+*⌞⚜️┊ذاك الامير ┊⚜️⌝*
 *• ──╾⊱﹝⚜️﹞⊰╼── •*
 > Copyright © 2024 -ستيڤن⁵¹⁷.`,subtitle: "Elsony",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: Elsony } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                     contextInfo: {
@@ -56,7 +56,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                                     title: '⌈🛡╎الــقــوائـــم╎🛡⌋',
                                     sections: [
                                         {
-                                            title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام ستيڤن بـ🤖ـوت',
+                                            title: 'مــرحـ🛡ـبــا بــك فـي مــ☑هــام ذاك الامير بـ🤖ـوت',
                                             highlight_label: 'بعبص براحتك يابرو 🤖',
                                             rows: [
                                                 {
@@ -149,7 +149,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                      },
                      {
                name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029ValKwOM0lwgjkCI6C71Y","merchant_url":"https://whatsapp.com/channel/0029ValKwOM0lwgjkCI6C71Y"}'
+               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029VaqzvqH3AzNQJq2GDD2o"}'
                             }
                         ]
                     }
