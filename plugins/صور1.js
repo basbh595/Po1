@@ -24,9 +24,9 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
       messages.push([
         `صورة ${i + 1}`,
-        'ستيڤن 𝑩𝒐𝒕',
+        'ذاك الامير 𝑩𝒐𝒕',
         imageBuffer,
-[['','']],[],[['قناتي','https://whatsapp.com/channel/0029ValKwOM0lwgjkCI6C71Y']] 
+[['','']],[],[['قناتي','https://whatsapp.com/channel/0029VaqzvqH3AzNQJq2GDD2o']] 
 
       ]);
 
@@ -35,7 +35,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     }
 
     // إرسال الصور كـ Carousel
-    await conn.sendCarousel(m.chat, 'تم العثور على نتائج', 'ستيفن بووت', 'IMAGES', messages, m);
+    await conn.sendCarousel(m.chat, 'تم العثور على نتائج', 'ذاك الامير بووت', 'IMAGES', messages, m);
     m.react('✅') 
   } catch (e) {
     console.log(e);
