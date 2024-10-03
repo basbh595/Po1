@@ -11,7 +11,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
       participants: '0@s.whatsapp.net', 
       remoteJid: 'status@broadcast', 
       fromMe: false, 
-      id: 'ستيڤن 𝐁𝐨𝐓 ᥫ᭡' 
+      id: 'ذاك الامير 𝐁𝐨𝐓 ᥫ᭡' 
     }, 
     message: { 
       contactMessage: { 
@@ -52,7 +52,7 @@ lang = 'en';
         await conn.sendButton(
           m.chat,
           `لــقــد تــخــيــلــت : 「 ${text} 」`, 
-          'ستيڤن 𝐁𝐨𝐓 ᥫ᭡',
+          'ذاك الامير 𝐁𝐨𝐓 ᥫ᭡',
           result.BK9,
           [['「 صــوره آخــرى 」', `${usedPrefix + command} ${text}`]],null,[['「 قــنــاتــي 」','https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a']],m);
         m.react ('✅'); 
