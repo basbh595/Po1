@@ -1,11 +1,11 @@
 let handler = async m => m.reply(`
 
-≡  *بوت>ستيفن*
+≡  *بوت>ذاك الامير*
 
 _GROUP:_
 ─────────────
 ▢ انضم إلى مجموعة البوت *
-https://chat.whatsapp.com/IsTDQc8976VHF64orJUqK2
+https://chat.whatsapp.com/HDBCFYi7PsdHQ8yjoAcVoE
 
 ─────────────
 
@@ -15,7 +15,7 @@ https://chat.whatsapp.com/IsTDQc8976VHF64orJUqK2
 
 `.trim())
 handler.help = ['gpguru']
-handler.tags = ['main']
+handler.tags = ['جروب]
 handler.command = ['group', 'support','الدعم','دعم']
 
 export default handler
