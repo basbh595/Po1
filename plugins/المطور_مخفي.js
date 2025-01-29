@@ -6,7 +6,7 @@ let c = m.quoted ? await m.getQuotedObj() : m.msg || m.text || m.sender
 let msg = conn.cMod(m.chat, generateWAMessageFromContent(m.chat, { [m.quoted ? q.mtype : 'extendedTextMessage']: m.quoted ? c.message[q.mtype] : { text: '' || c }}, { quoted: m, userJid: conn.user.id }), text || q.text, conn.user.jid, { mentions: users })
 await conn.Message(m.chat, msg.message, { messageId: msg.key.id })
 }
-handler.help = ['hidetag']
+handler.help = ['@']
 handler.tags = ['group']
 handler.command = /^(@|مهم|@)$/i
 handler.group = true
